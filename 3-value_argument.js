@@ -1,2 +1,2 @@
 const arg = process.argv[2];
-console.log(arg !== "" ? "school" : "No argument");
+console.log(arg !== undefined ? arg : "No argument");
